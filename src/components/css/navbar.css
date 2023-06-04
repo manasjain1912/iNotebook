@@ -1,0 +1,34 @@
+/* navbar.css */
+
+
+.navbar {
+    background-color: purple;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .btn-outline-light:hover,
+  .btn-outline-light:focus {
+    color: purple;
+    background-color: #fff;
+  }
+  
+  /* Add more custom CSS styles as needed */
+  

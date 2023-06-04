@@ -1,0 +1,102 @@
+/* Login.css */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+.bck {
+    /* background-image: linear-gradient(25deg,#d64c7f,#ee4758 50%); */
+    /* background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% ); */
+    /* background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% ); */
+    background: linear-gradient(45deg, red, blue);
+
+ /* Background gradient */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+  }
+.signup-box {
+    max-width: 400px;
+    margin: 0 auto 200px auto; /* Adjust margin-top and margin-bottom */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+    
+  }
+  .signin-box {
+    max-width: 400px;
+    margin: 0 auto 100px auto; /* Updated margin-top value */
+    padding: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+  }
+  
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Input field background color */
+  }
+  
+  .form-text {
+    color: #6c757d;
+  }
+  
+  .btn-primary {
+    align-items: center;
+    background-image: linear-gradient(144deg, #ff4040, #f34245 50%, #eb0014);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 70%;
+    min-width: 70px;
+    padding: 12px 45px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .btn-primary:active,
+  .btn-primary:hover {
+    outline: 0;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add some top margin to separate buttons from form fields */
+  }
+  
+  @media (min-width: 768px) {
+    .btn-primary {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+  
+
+  
