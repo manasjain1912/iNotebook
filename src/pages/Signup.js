@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function Signup(props) {
-  const [signup, setSignup] = useState({ name: "", email: "", password: "",cpassword: "" });
+  const [signup, setSignup] = useState({ name: '', email: '', password: '',cpassword:'' });
   const navigate = useNavigate();
   const host = "http://localhost:5000";
 
