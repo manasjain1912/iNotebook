@@ -6,7 +6,7 @@ import '../css/Login.css'; // Import custom CSS file for Login component
 export default function Login(props) {
   const [login, setLogin] = useState({ email: "", password: "" });
   const navigate = useNavigate();
-  const host = "http://localhost:5000";
+  const host = "https://notes-backend.glitch.me/";
 
   const handleClick = async (e) => {
     e.preventDefault();

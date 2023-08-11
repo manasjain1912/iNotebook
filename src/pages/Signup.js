@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 export default function Signup(props) {
   const [signup, setSignup] = useState({ name: '', email: '', password: '',cpassword:'' });
   const navigate = useNavigate();
-  const host = "http://localhost:5000";
+  const host = "https://notes-backend.glitch.me/";
 
   const handleClick = async (e) => {
     e.preventDefault();
