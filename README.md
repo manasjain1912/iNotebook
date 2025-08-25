@@ -29,6 +29,3 @@ iNotebook is a MERN Stack Application for managing personal notes on the cloud .
 
 ## After deletion
 ![image](https://github.com/manasjain1912/iNotebook/assets/77676910/80b6bbdf-2b76-4a9a-b470-2a0878686d4c)
-
-## About page
-![image](https://github.com/manasjain1912/iNotebook/assets/77676910/3f02936f-41fd-43f7-a53d-f07733481fa6)
